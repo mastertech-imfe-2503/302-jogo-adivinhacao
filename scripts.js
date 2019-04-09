@@ -9,3 +9,16 @@
 
 PS.: As saídas e entradas tem que ser feitas no HTML
 */
+
+const guessField = document.querySelector('input');
+const playButton = document.querySelector('button');
+const outputParagraph = document.querySelector('.output');
+
+const answer = getRandom(0, 50);
+console.log(answer);
+
+const play = function () {
+
+};
+
+playButton.onclick = play;
